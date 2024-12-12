@@ -1,0 +1,211 @@
+.checkoutPage {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.sumBox {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 2px 2px black;
+}
+
+.halign {
+  text-align: center;
+}
+
+.head {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pstyles {
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.calcLines {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.lalign {
+  margin-top: 30px;
+  margin-left: 20px;
+  text-align: left;
+  flex: 1;
+}
+
+.ralign {
+  color: red;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: right;
+  flex: 1;
+}
+
+.details {
+  margin-top: 40px;
+}
+
+.pstyles2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.lalign2 {
+  font-weight: bold;
+  margin-left: 10px;
+  text-align: left;
+  flex: 1;
+}
+
+.ralign2 {
+  font-weight: bold;
+  margin-right: 20px;
+  text-align: right;
+  flex: 1;
+}
+
+.halign2 {
+  width: 100%;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+.fcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.fstyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 50px;
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  box-shadow: 2px 2px black;
+}
+
+.fstyle label {
+  display: grid;
+  grid-template-columns: 10fr 7fr;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.fstyle input {
+  background-color: #d9d9d99d;
+  cursor: pointer;
+}
+
+.h2style {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.bcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonStyle {
+  background-color: #FFF70C;
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+transform: scale(1.2);
+}
+
+@media (min-width:1200px) {
+  .checkoutPage {
+    justify-content: space-around; 
+  }
+
+  .sumBox, .fstyle {
+    width: 45%; 
+    margin: 20px;
+  }
+
+  .fcontainer {
+    justify-content: space-between; 
+  }
+
+  .buttonStyle {
+    width: 300px; 
+  }
+}
+
+@media (min-width:769px) and (max-width: 1199px) {
+  .checkoutPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sumBox, .fstyle {
+    width: 90%;
+    margin: 20px 0;
+    height: auto;
+    text-align: center;
+  }
+
+  .fcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fstyle label {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .buttonStyle {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .checkoutPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sumBox, .fstyle {
+    width: 90%;
+    margin: 20px 0;
+    height: auto;
+    text-align: center;
+  }
+
+  .fcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fstyle label {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .buttonStyle {
+    width: 80%;
+  }
+}
