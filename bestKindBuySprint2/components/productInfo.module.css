@@ -1,0 +1,222 @@
+:root {
+  --logo-blue: #0a4abf;
+  --logo-darkblue: #04286b;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.productimage {
+  width: 600px;
+  height: 500px;
+  margin-top: 60px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.productdesc {
+  width: 400px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.itemname {
+  width: 400px;
+  height: 40px;
+}
+
+.itemname h1{
+  font-size: 30px;
+}
+
+.itemprice {
+  width: 400px;
+  height: 40px;
+}
+
+.itemprice h2 {
+  padding-top: 5px;
+  color: red;
+}
+
+.addcart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.deliveryOptions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.deliveryTab,
+.deliveryTabActive {
+  flex: 1;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 5px 5px 0 0;
+}
+
+.deliveryTabActive {
+  background-color: var(--logo-darkblue);
+  color: #fff;
+}
+
+.deliveryTab {
+  background-color: transparent;
+  color: var(--logo-darkblue);
+}
+
+.addToCart {
+  padding: 15px 30px;
+  background-color: #ffff00;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.prodov {
+  width: 400px;
+  height: auto;
+}
+
+.prodov p {
+  margin-top: 10px;
+}
+
+.productinfobox {
+  width: 1000px;
+  height: auto;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.aboutprod {
+  width: 1000px;
+  height: 200px;
+}
+
+.aboutprod p {
+  margin-top: 10px;
+}
+
+.specprod {
+  width: 1000px;
+  min-height: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.specprod p {
+  margin-top: 10px;
+}
+
+.specprod ul {
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+.questionsprod {
+  width: 1000px;
+  min-height: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.questionsprod p {
+  margin-top: 10px;
+}
+
+.questionsprod ul {
+  margin-top: 10px;
+  line-height: 1.8;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .productimage,
+  .productdesc,
+  .itemname,
+  .itemprice,
+  .prodov,
+  .productinfobox,
+  .aboutprod,
+  .specprod,
+  .questionsprod {
+    width: 90%;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deliveryOptions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deliveryTab,
+  .deliveryTabActive {
+    width: 100%;
+  }
+
+  .addToCart {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .aboutprod,
+  .specprod,
+  .questionsprod {
+    text-align: center;
+  }
+
+  .aboutprod p,
+  .specprod p,
+  .questionsprod p,
+  .aboutprod h2,
+  .specprod h2,
+  .questionsprod h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .productimage {
+    height: auto;
+  }
+
+  .itemprice h2 {
+    font-size: 18px;
+  }
+
+  .aboutprod,
+  .specprod,
+  .questionsprod {
+    text-align: center;
+  }
+
+  .aboutprod p,
+  .specprod p,
+  .questionsprod p,
+  .aboutprod h2,
+  .specprod h2,
+  .questionsprod h2 {
+    text-align: center;
+  }
+}

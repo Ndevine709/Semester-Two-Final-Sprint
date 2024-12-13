@@ -1,0 +1,394 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "PearBook - 13\" Silver",
+      "description": "A sleek and powerful 13-inch laptop in silver, the PearBook combines cutting-edge technology with elegant design. It's crafted for those who demand high performance in a portable package, making it perfect for both professionals on the go and students who need a reliable device for their studies. With its high-resolution Retina display and long-lasting battery, it's designed to keep up with your busy lifestyle and handle intensive tasks with ease.",
+      "price": 999.99,
+      "about": "The PearBook offers unmatched portability and performance for professionals and students. Featuring a Quad-Core 3.1 GHz processor and 16 GB RAM, it effortlessly handles multitasking and resource-intensive applications. The 512 GB SSD provides ample storage space and fast data access. Its sleek silver design is not only aesthetically pleasing but also built with durable materials to withstand daily use. The lightweight build and compact size make it easy to carry, ensuring you stay productive wherever you go.",
+      "url": "./images/pearbook1.jpg",
+      "specifications": {
+        "ScreenSize": "13 inches",
+        "Color": "Silver",
+        "Processor": "Quad-Core 3.1 GHz",
+        "Memory": "16 GB RAM",
+        "Storage": "512 GB SSD",
+        "Graphics": "Integrated PearGraphics 620",
+        "BatteryLife": "Up to 12 hours",
+        "Weight": "2.8 lbs",
+        "OperatingSystem": "PearOS X 10.15",
+        "Ports": "2 Thunderbolt 3 (USB-C), 1 headphone jack",
+        "Wireless": "Wi-Fi 6, Bluetooth 5.0"
+      },
+      "commonQuestions": [
+        "Does it come with pre-installed software?",
+        "What is the battery life?",
+        "Is it compatible with Pear accessories?",
+        "Does it have a Retina display?"
+      ]
+    },
+    {
+      "id": "2",
+      "productName": "PearPhone - Black",
+      "description": "A high-performance smartphone with a sleek black finish, the PearPhone offers a seamless blend of style and technology. Its stunning 6.5-inch OLED display provides vibrant colors and deep blacks, perfect for immersive viewing. Powered by a Hexa-Core 2.9 GHz processor, it ensures lightning-fast performance for all your apps and games. The advanced camera system captures professional-quality photos and videos, making it a perfect companion for capturing life's moments.",
+      "price": 799.99,
+      "about": "Experience next-generation communication and entertainment with the PearPhone. It boasts a sophisticated design with a durable glass front and back, and an aerospace-grade aluminum frame. The device supports 5G connectivity, ensuring you stay connected at blazing speeds. With its enhanced security features like facial recognition and secure enclave, your data remains protected. The PearPhone also integrates seamlessly with other Pear devices, allowing for a cohesive ecosystem experience.",
+      "url": "./images/phone1.png",
+      "specifications": {
+        "ScreenSize": "6.5 inches",
+        "Color": "Black",
+        "Processor": "Hexa-Core 2.9 GHz",
+        "Memory": "8 GB RAM",
+        "Storage": "256 GB",
+        "Camera": "Triple 12MP Ultra Wide, Wide, and Telephoto cameras",
+        "BatteryLife": "Up to 20 hours of video playback",
+        "OperatingSystem": "PearOS Mobile 14",
+        "Connectivity": "5G, Wi-Fi 6, Bluetooth 5.2",
+        "WaterResistance": "IP68 rated"
+      },
+      "commonQuestions": [
+        "Does it support 5G?",
+        "What is the camera resolution?",
+        "Is it water-resistant?",
+        "Does it have facial recognition technology?"
+      ]
+    },
+    {
+      "id": "3",
+      "productName": "Headphones - Silver",
+      "description": "Premium wireless headphones in a stylish silver color, these headphones deliver crystal-clear sound quality with active noise cancellation. Designed for comfort during extended listening sessions, they feature plush ear cushions and an adjustable headband. With a long battery life and quick charging capabilities, you can enjoy your music uninterrupted for hours. The foldable design makes them easy to carry, perfect for travel and commuting.",
+      "price": 199.99,
+      "about": "Enjoy crystal-clear sound with noise cancellation and long battery life. These headphones are engineered with advanced audio technology to provide an immersive listening experience. The active noise cancellation blocks out unwanted ambient noise, allowing you to focus on your music or calls. The intuitive touch controls on the ear cups make it easy to adjust volume, change tracks, or answer calls. They also come with a premium carrying case for protection and portability.",
+      "url": "./images/headphones1.png",
+      "specifications": {
+        "Color": "Silver",
+        "Connectivity": "Bluetooth 5.0",
+        "BatteryLife": "20 hours",
+        "Features": "Noise Cancelling, Foldable Design",
+        "ChargingTime": "1.5 hours for full charge",
+        "FrequencyResponse": "20Hz - 20kHz",
+        "Weight": "250 grams",
+        "Microphone": "Built-in dual microphones for clear calls"
+      },
+      "commonQuestions": [
+        "Do they support fast charging?",
+        "Are they compatible with all devices?",
+        "What is the range of Bluetooth connectivity?",
+        "Can I use them wired when the battery is low?"
+      ]
+    },
+    {
+      "id": "4",
+      "productName": "Pear Tablet - 12\" Gray",
+      "description": "A versatile 12-inch tablet perfect for work and play, the Pear Tablet combines portability with powerful performance. Its large, high-resolution display is ideal for multitasking, graphic design, and entertainment. The sleek gray aluminum body is both stylish and durable. With support for the Pear Stylus and detachable keyboard, it can easily transform into a laptop-like experience. The long battery life ensures it keeps up with your day.",
+      "price": 649.99,
+      "about": "Lightweight and powerful, the Pear Tablet is your go-to device for productivity and entertainment. It features an Octa-Core processor and 6 GB of RAM, providing smooth performance for demanding applications. The device supports multitasking with split-screen functionality, making it easier to work on multiple apps simultaneously. With its crystal-clear Retina display and high-fidelity speakers, it's also perfect for watching movies and video conferencing. The Pear Tablet is designed to integrate seamlessly with other Pear devices, enhancing your workflow and connectivity.",
+      "url": "./images/tablet1.png",
+      "specifications": {
+        "ScreenSize": "12 inches",
+        "Color": "Gray",
+        "Processor": "Octa-Core 2.5 GHz",
+        "Memory": "6 GB RAM",
+        "Storage": "128 GB",
+        "Display": "Retina Display with True Tone",
+        "BatteryLife": "Up to 10 hours of surfing the web on Wi-Fi",
+        "Camera": "12MP rear camera, 7MP front camera",
+        "Connectivity": "Wi-Fi 6, Bluetooth 5.0, Optional LTE",
+        "Weight": "1.2 lbs"
+      },
+      "commonQuestions": [
+        "Does it support a stylus?",
+        "What is the screen resolution?",
+        "Can it connect to external monitors?",
+        "Does it have facial recognition for unlocking?"
+      ]
+    },
+    {
+      "id": "5",
+      "productName": "VerySmart 4K - TV",
+      "description": "A stunning 4K smart TV with vibrant colors and smart features, the VerySmart TV brings the cinema experience into your living room. Its 55-inch display with 4K Ultra HD resolution and HDR support delivers breathtaking picture quality. The integrated smart platform allows seamless access to your favorite streaming services and apps. With voice control and compatibility with popular voice assistants, navigating and controlling your TV has never been easier.",
+      "price": 899.99,
+      "about": "Experience cinematic visuals and seamless streaming with the VerySmart TV. Its advanced image processing technology enhances color accuracy and contrast, bringing your content to life. The TV's sleek design features minimal bezels and a slim profile, making it an attractive addition to any space. It also includes multiple connectivity options, allowing you to easily connect gaming consoles, sound systems, and other devices. The intuitive user interface ensures that accessing content and adjusting settings is simple and straightforward.",
+      "url": "./images/tv1.jpeg",
+      "specifications": {
+        "ScreenSize": "55 inches",
+        "Resolution": "4K Ultra HD",
+        "Features": "Smart TV, Voice Control",
+        "Ports": "3 HDMI, 2 USB",
+        "HDR": "Supports HDR10 and Dolby Vision",
+        "RefreshRate": "120Hz",
+        "Audio": "Built-in Dolby Atmos",
+        "Connectivity": "Wi-Fi, Ethernet, Bluetooth",
+        "Dimensions": "48.7\" x 28.1\" x 2.2\" without stand"
+      },
+      "commonQuestions": [
+        "Does it support Dolby Vision?",
+        "Is it compatible with voice assistants?",
+        "Can I wall-mount it?",
+        "Does it have a gaming mode for low input lag?"
+      ]
+    },
+    {
+      "id": "6",
+      "productName": "Headphones - Black",
+      "description": "Comfortable black headphones with exceptional sound quality, these headphones are perfect for music lovers who value both style and performance. They feature soft over-ear cushions and an adjustable headband for a custom fit. With both wired and wireless connectivity options, you can enjoy flexibility in how you listen. The long battery life and built-in microphone make them ideal for travel and taking calls on the go.",
+      "price": 149.99,
+      "about": "Enjoy your music on-the-go with these stylish and durable headphones. Crafted with high-quality materials, they are designed to withstand daily wear and tear. The headphones deliver rich bass and clear treble, providing an immersive audio experience. The seamless switching between wired and wireless modes ensures you never miss a beat. They also feature on-ear controls for easy access to volume and playback settings, as well as voice assistant activation.",
+      "url": "./images/headphones2.jpg",
+      "specifications": {
+        "Color": "Black",
+        "Connectivity": "Wired and Wireless",
+        "BatteryLife": "25 hours",
+        "Features": "Adjustable Headband, Built-in Microphone",
+        "ChargingTime": "2 hours for full charge",
+        "FrequencyResponse": "15Hz - 22kHz",
+        "Impedance": "32 ohms",
+        "Weight": "230 grams"
+      },
+      "commonQuestions": [
+        "Are they foldable?",
+        "Do they come with a carrying case?",
+        "What is the warranty period?",
+        "Can I replace the ear cushions?"
+      ]
+    },
+    {
+      "id": "7",
+      "productName": "BassGoCrazy - Speaker",
+      "description": "Portable Bluetooth speaker with powerful bass, the BassGoCrazy is designed to deliver high-quality sound wherever you go. Its rugged design is both waterproof and shockproof, making it perfect for outdoor adventures. With 15 hours of battery life and a compact size, you can enjoy your favorite tunes all day long. The speaker also features a built-in microphone for hands-free calls and can connect to multiple devices simultaneously.",
+      "price": 119.99,
+      "about": "Take your music anywhere with the BassGoCrazy speaker, designed for rich sound and durability. The speaker's enhanced bass technology provides deep, punchy lows without compromising on clarity. Its waterproof rating ensures it can handle splashes or even brief submersions, making it ideal for pool parties or beach trips. The easy-to-use controls and voice prompts make operation straightforward, while the ability to pair two speakers for stereo sound expands your listening experience.",
+      "url": "./images/speaker1.jpg",
+      "specifications": {
+        "Color": "Black",
+        "Connectivity": "Bluetooth 5.1",
+        "BatteryLife": "15 hours",
+        "Features": "Waterproof (IPX7), Shockproof",
+        "OutputPower": "20W",
+        "FrequencyResponse": "65Hz - 20kHz",
+        "Dimensions": "7.5\" x 3\" x 3\"",
+        "Weight": "1.2 lbs"
+      },
+      "commonQuestions": [
+        "What is the Bluetooth range?",
+        "Can it connect to multiple devices?",
+        "Is it suitable for outdoor use?",
+        "Does it have an auxiliary input?"
+      ]
+    },
+    {
+      "id": "8",
+      "productName": "PearBook - 13\" Gray",
+      "description": "A modern 13-inch laptop in an elegant gray finish, the PearBook offers enhanced performance and storage. With a Quad-Core 3.5 GHz processor and 1 TB SSD, it's designed for power users who need extra speed and space. The high-resolution display and advanced graphics capabilities make it ideal for creative professionals. Its slim design and lightweight build ensure it's as portable as it is powerful.",
+      "price": 1049.99,
+      "about": "Perfect for multitasking, the PearBook in gray combines style and performance. It features advanced thermal management to keep the system cool under heavy workloads. The expansive 1 TB SSD provides lightning-fast storage for large files and applications. The laptop's backlit keyboard and large trackpad enhance usability, while the extended battery life keeps you productive throughout the day. With robust security features and the latest PearOS, it's built to support your professional needs.",
+      "url": "./images/pearbook2.jpg",
+      "specifications": {
+        "ScreenSize": "13 inches",
+        "Color": "Gray",
+        "Processor": "Quad-Core 3.5 GHz",
+        "Memory": "16 GB RAM",
+        "Storage": "1 TB SSD",
+        "Graphics": "PearGraphics Pro 640",
+        "BatteryLife": "Up to 14 hours",
+        "Weight": "2.8 lbs",
+        "OperatingSystem": "PearOS X 10.15",
+        "Ports": "4 Thunderbolt 3 (USB-C), 1 headphone jack",
+        "Wireless": "Wi-Fi 6, Bluetooth 5.0"
+      },
+      "commonQuestions": [
+        "What is the keyboard layout?",
+        "Is it compatible with external GPUs?",
+        "Does it come with an international warranty?",
+        "Does it have a touch bar or function keys?"
+      ]
+    },
+    {
+      "id": "9",
+      "productName": "PearPhone - White",
+      "description": "A stylish white smartphone with cutting-edge features, the PearPhone combines elegance with advanced technology. The 6.5-inch OLED display provides crisp, clear visuals, while the Hexa-Core 3.0 GHz processor ensures smooth performance. With an impressive 512 GB of storage, you'll have plenty of space for apps, photos, and videos. Its advanced camera system and extended battery life make it an ideal choice for users who want the best in mobile technology.",
+      "price": 799.99,
+      "about": "Stay connected and productive with the elegant PearPhone in white. The device features advanced camera capabilities, including Night Mode and Portrait Lighting, to capture stunning images in any condition. Its robust battery life and fast-charging support keep you powered throughout the day. The PearPhone's seamless integration with cloud services ensures your data is accessible and synchronized across all your devices. With enhanced privacy settings, you have greater control over your personal information.",
+      "url": "./images/phone2.jpg",
+      "specifications": {
+        "ScreenSize": "6.5 inches",
+        "Color": "White",
+        "Processor": "Hexa-Core 3.0 GHz",
+        "Memory": "8 GB RAM",
+        "Storage": "512 GB",
+        "Camera": "Triple 12MP Ultra Wide, Wide, and Telephoto cameras",
+        "BatteryLife": "Up to 22 hours of video playback",
+        "OperatingSystem": "PearOS Mobile 14",
+        "Connectivity": "5G, Wi-Fi 6, Bluetooth 5.2",
+        "WaterResistance": "IP68 rated",
+        "Charging": "Supports wireless and fast charging"
+      },
+      "commonQuestions": [
+        "What is the battery capacity?",
+        "Does it support wireless charging?",
+        "Can I expand the storage?",
+        "Does it have dual SIM capability?"
+      ]
+    },
+    {
+      "id": "10",
+      "productName": "AveragelySmart - TV",
+      "description": "A budget-friendly smart TV with all essential features, the AveragelySmart TV offers a great viewing experience without breaking the bank. Its 50-inch Full HD display provides clear and vibrant images. The built-in smart platform gives you access to popular streaming services like Netflix and YouTube. With basic voice control and multiple ports, it's easy to integrate into your home entertainment setup.",
+      "price": 499.99,
+      "about": "Enjoy entertainment at an affordable price with the AveragelySmart TV. Despite its budget-friendly nature, it doesn't compromise on quality. The user-friendly interface allows for easy navigation between apps and settings. Its energy-efficient design helps reduce power consumption, saving you money in the long run. The slim bezel design gives it a modern look, and the included stand provides stable support. It's an excellent choice for bedrooms, guest rooms, or anyone seeking value without sacrificing functionality.",
+      "url": "./images/tv2.jpeg",
+      "specifications": {
+        "ScreenSize": "50 inches",
+        "Resolution": "Full HD",
+        "Features": "Smart TV, Basic Voice Control",
+        "Ports": "2 HDMI, 1 USB",
+        "RefreshRate": "60Hz",
+        "Audio": "Stereo speakers",
+        "Connectivity": "Wi-Fi, Ethernet",
+        "Dimensions": "44.5\" x 25.8\" x 2.5\" without stand",
+        "EnergyRating": "Class A"
+      },
+      "commonQuestions": [
+        "Does it support Netflix and YouTube?",
+        "What is the refresh rate?",
+        "Is it HDR compatible?",
+        "Can I connect it to external sound systems?"
+      ]
+    },
+    {
+      "id": "11",
+      "productName": "Pear Tablet - 9\" Silver",
+      "description": "A compact and powerful 9-inch tablet in silver, the Pear Tablet is ideal for those who need performance on the go. Its lightweight design makes it perfect for reading, browsing, and light work. With a vibrant display and powerful processor, it handles apps and multimedia with ease. The long battery life ensures it stays powered throughout your day, and with optional cellular connectivity, you can stay connected wherever you are.",
+      "price": 399.99,
+      "about": "Ideal for reading, browsing, and light work on-the-go. The Pear Tablet's compact size doesn't sacrifice functionality. It offers a responsive touch interface and supports a wide range of apps for productivity and entertainment. The device is built with high-quality materials, providing durability and a premium feel. Its long-lasting battery allows for uninterrupted use, and the fast charging feature means you spend less time plugged in. The Pear Tablet also includes features like parental controls and screen time management, making it suitable for family use.",
+      "url": "./images/tablet2.jpg",
+      "specifications": {
+        "ScreenSize": "9 inches",
+        "Color": "Silver",
+        "Processor": "Quad-Core 2.0 GHz",
+        "Memory": "4 GB RAM",
+        "Storage": "64 GB",
+        "Display": "Retina Display with True Tone",
+        "BatteryLife": "Up to 10 hours of surfing the web on Wi-Fi",
+        "Camera": "8MP rear camera, 7MP front camera",
+        "Connectivity": "Wi-Fi 5, Bluetooth 5.0, Optional LTE",
+        "Weight": "0.9 lbs"
+      },
+      "commonQuestions": [
+        "Does it support expandable storage?",
+        "Can I use it with a keyboard case?",
+        "What is the charging time?",
+        "Does it have parental control features?"
+      ]
+    },
+    {
+      "id": "12",
+      "productName": "EpicSound - Speaker",
+      "description": "High-quality speaker with surround sound capabilities, the EpicSound delivers an immersive audio experience. Its compact design fits seamlessly into any room, and the powerful drivers produce rich, detailed sound. With wireless connectivity and easy setup, it's perfect for enhancing your home entertainment system. Whether you're watching movies or listening to music, the EpicSound brings your audio to life.",
+      "price": 149.99,
+      "about": "Immerse yourself in music with the EpicSound speaker, featuring superior audio clarity. The speaker's surround sound technology creates a 360-degree sound field, filling the room with balanced audio. Its sleek design and premium materials complement any decor. The EpicSound supports high-resolution audio formats, ensuring you hear every detail. With compatibility for voice assistants, you can control your music hands-free, making it a smart addition to your home.",
+      "url": "./images/speaker2.jpg",
+      "specifications": {
+        "Color": "Black",
+        "Connectivity": "Bluetooth 5.2, Wi-Fi",
+        "BatteryLife": "18 hours",
+        "Features": "Surround Sound, Compact Design",
+        "OutputPower": "30W",
+        "FrequencyResponse": "50Hz - 20kHz",
+        "Dimensions": "8\" x 4\" x 4\"",
+        "Weight": "1.5 lbs",
+        "VoiceControl": "Compatible with voice assistants"
+      },
+      "commonQuestions": [
+        "Is it compatible with Pear devices?",
+        "What is the sound output in watts?",
+        "Does it have a built-in equalizer?",
+        "Can I pair multiple units for stereo sound?"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "id": "1",
+      "productName": "PearBook - 13\" Silver",
+      "description": "A sleek and powerful 13-inch laptop in silver, the PearBook combines cutting-edge technology with elegant design. It's crafted for those who demand high performance in a portable package, making it perfect for both professionals on the go and students who need a reliable device for their studies. With its high-resolution Retina display and long-lasting battery, it's designed to keep up with your busy lifestyle and handle intensive tasks with ease.",
+      "price": 999.99,
+      "about": "The PearBook offers unmatched portability and performance for professionals and students. Featuring a Quad-Core 3.1 GHz processor and 16 GB RAM, it effortlessly handles multitasking and resource-intensive applications. The 512 GB SSD provides ample storage space and fast data access. Its sleek silver design is not only aesthetically pleasing but also built with durable materials to withstand daily use. The lightweight build and compact size make it easy to carry, ensuring you stay productive wherever you go.",
+      "url": "./images/pearbook1.jpg",
+      "specifications": {
+        "ScreenSize": "13 inches",
+        "Color": "Silver",
+        "Processor": "Quad-Core 3.1 GHz",
+        "Memory": "16 GB RAM",
+        "Storage": "512 GB SSD",
+        "Graphics": "Integrated PearGraphics 620",
+        "BatteryLife": "Up to 12 hours",
+        "Weight": "2.8 lbs",
+        "OperatingSystem": "PearOS X 10.15",
+        "Ports": "2 Thunderbolt 3 (USB-C), 1 headphone jack",
+        "Wireless": "Wi-Fi 6, Bluetooth 5.0"
+      },
+      "commonQuestions": [
+        "Does it come with pre-installed software?",
+        "What is the battery life?",
+        "Is it compatible with Pear accessories?",
+        "Does it have a Retina display?"
+      ],
+      "qty": 2
+    },
+    {
+      "id": "8",
+      "productName": "PearBook - 13\" Gray",
+      "description": "A modern 13-inch laptop in an elegant gray finish, the PearBook offers enhanced performance and storage. With a Quad-Core 3.5 GHz processor and 1 TB SSD, it's designed for power users who need extra speed and space. The high-resolution display and advanced graphics capabilities make it ideal for creative professionals. Its slim design and lightweight build ensure it's as portable as it is powerful.",
+      "price": 1049.99,
+      "about": "Perfect for multitasking, the PearBook in gray combines style and performance. It features advanced thermal management to keep the system cool under heavy workloads. The expansive 1 TB SSD provides lightning-fast storage for large files and applications. The laptop's backlit keyboard and large trackpad enhance usability, while the extended battery life keeps you productive throughout the day. With robust security features and the latest PearOS, it's built to support your professional needs.",
+      "url": "./images/pearbook2.jpg",
+      "specifications": {
+        "ScreenSize": "13 inches",
+        "Color": "Gray",
+        "Processor": "Quad-Core 3.5 GHz",
+        "Memory": "16 GB RAM",
+        "Storage": "1 TB SSD",
+        "Graphics": "PearGraphics Pro 640",
+        "BatteryLife": "Up to 14 hours",
+        "Weight": "2.8 lbs",
+        "OperatingSystem": "PearOS X 10.15",
+        "Ports": "4 Thunderbolt 3 (USB-C), 1 headphone jack",
+        "Wireless": "Wi-Fi 6, Bluetooth 5.0"
+      },
+      "commonQuestions": [
+        "What is the keyboard layout?",
+        "Is it compatible with external GPUs?",
+        "Does it come with an international warranty?",
+        "Does it have a touch bar or function keys?"
+      ],
+      "qty": 1
+    },
+    {
+      "id": "5",
+      "productName": "VerySmart 4K - TV",
+      "description": "A stunning 4K smart TV with vibrant colors and smart features, the VerySmart TV brings the cinema experience into your living room. Its 55-inch display with 4K Ultra HD resolution and HDR support delivers breathtaking picture quality. The integrated smart platform allows seamless access to your favorite streaming services and apps. With voice control and compatibility with popular voice assistants, navigating and controlling your TV has never been easier.",
+      "price": 899.99,
+      "about": "Experience cinematic visuals and seamless streaming with the VerySmart TV. Its advanced image processing technology enhances color accuracy and contrast, bringing your content to life. The TV's sleek design features minimal bezels and a slim profile, making it an attractive addition to any space. It also includes multiple connectivity options, allowing you to easily connect gaming consoles, sound systems, and other devices. The intuitive user interface ensures that accessing content and adjusting settings is simple and straightforward.",
+      "url": "./images/tv1.jpeg",
+      "specifications": {
+        "ScreenSize": "55 inches",
+        "Resolution": "4K Ultra HD",
+        "Features": "Smart TV, Voice Control",
+        "Ports": "3 HDMI, 2 USB",
+        "HDR": "Supports HDR10 and Dolby Vision",
+        "RefreshRate": "120Hz",
+        "Audio": "Built-in Dolby Atmos",
+        "Connectivity": "Wi-Fi, Ethernet, Bluetooth",
+        "Dimensions": "48.7\" x 28.1\" x 2.2\" without stand"
+      },
+      "commonQuestions": [
+        "Does it support Dolby Vision?",
+        "Is it compatible with voice assistants?",
+        "Can I wall-mount it?",
+        "Does it have a gaming mode for low input lag?"
+      ],
+      "qty": 1
+    }
+  ]
+}
